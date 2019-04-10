@@ -9,10 +9,7 @@ html {
 
 body {
     margin: 0;
-    background-color: #05535f;
-    color: white;
     font-family: 'Roboto', sans-serif;
-    /* font-weight: 400; */
 }
 
 a {
@@ -20,7 +17,7 @@ a {
 }
 
 a:hover {
-    color: grey;
+    color: #7C7C7C;
 }
 
 #welcome-section {
@@ -29,6 +26,75 @@ a:hover {
     align-items: center;
     justify-content: center;
     text-align: center;
+    background-color: #05535f;
+    color: white;
+}
+
+#about-section {
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    grid-gap: 10px;
+    height: 100vh;
+    padding: 10rem 7rem 7rem 7rem;
+    justify-content: center;
+    color: #7C7C7C;
+    border-bottom: 1px solid #05535f; 
+}
+
+#about {
+    display: grid;
+    grid-column: 1;
+}
+
+#simon_photo {
+    display: grid;
+    grid-column: 2;
+}
+
+img {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+}
+
+ul li {
+    padding: 1rem 0 1rem 0;
+}
+
+#projects {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 10px;
+    height: 100vh;
+    padding: 10rem 7rem 7rem 7rem;
+    justify-content: center;
+    color: #7C7C7C;
+    border-bottom: 1px solid #05535f;
+}
+
+#project-1img {
+    display: grid;
+    grid-column: 1;
+}
+
+#project-1 {
+    display: grid;
+    grid-column: 2;
+    margin: 0 0 0 3rem;
+}
+
+#contact-section {
+    display: grid;
+    height: 100vh;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    color: #7C7C7C;
 }
 
 h1 {
@@ -39,7 +105,7 @@ h1 {
 
 h2 {
     font-size: 2rem;
-    margin: 1.5rem 0 0 0;
+    margin: 1.5rem 0 1.5rem 0;
 }
 
 hr {
@@ -47,5 +113,24 @@ hr {
 }
 
 .icon {
-    padding: 2rem 0.75rem 0.75rem 0rem;
+    padding: 1rem 0.75rem 0.75rem 1rem;
+}
+
+.icon-black {
+    padding: 1rem 0.75rem 0.75rem 1rem;
+    color: #05535F;
+}
+
+button {
+    background-color: #05535F;
+    border: solid 2px #05535F;
+    color: white;
+    border-radius: 2rem;
+	/* cursor: pointer; */
+	font-family: inherit;
+	font-size: 1em;
+    /* transition-duration: 0.3s; */
+	width: 8rem;
+    height: 3rem;
+    margin: 1.5rem 0 1.5rem 0;
 }
