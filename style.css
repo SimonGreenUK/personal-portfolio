@@ -1,11 +1,9 @@
-/* html {
-	box-sizing: border-box;
-} */
-
 * {
-	box-sizing: inherit;
+    box-sizing: inherit;
+    box-sizing: border-box;
 }
 
+/* ELEMENT STYLING */
 
 body {
     margin: 0;
@@ -29,6 +27,7 @@ hr {
 
 a {
     color: white;
+    text-decoration: none;
 }
 
 a:hover {
@@ -58,11 +57,38 @@ button {
 	cursor: pointer;
 	font-family: inherit;
 	font-size: 1em;
-    /* transition-duration: 0.3s; */
 	width: 8rem;
     height: 3rem;
     margin: 1.5rem 0 1.5rem 0;
 }
+
+/* NAVBAR SYLING */
+
+.navbar {
+    width: 100%;
+    background-color: #05535f;;
+	position: fixed;
+    z-index: 1;
+    display: flex;
+    flex-flow: row nowrap;
+    align-items: center;
+    align-content: center;
+    justify-content: space-between;
+    margin: 0;
+    padding: 0;
+    top: 0;
+    height: 55px;
+}
+
+.nav-title {
+    margin-left: 30px;
+}
+
+.nav-item {
+    margin-right: 30px;
+}
+
+/* SECTION STYLING */
 
 #welcome-section {
     display: grid;
@@ -91,12 +117,6 @@ button {
     grid-column: 1;
 }
 
-#about-section img {
-    /* display: grid; */
-    /* grid-column: 1; */
-    /* max-width: 60%; */
-}
-
 #projects {
     display: grid;
     grid-template-columns: 1fr 1fr;
@@ -121,7 +141,6 @@ button {
 #project-1 {
     display: grid;
     grid-column: 2;
-    /* margin: 0 0 0 3rem; */
 }
 
 #contact-section {
@@ -143,36 +162,9 @@ button {
     color: #05535F;
 }
 
-/* NAVIGATION */
 
-#header {
-	width: 100%;
-	background-color: #05535f;;
-	position: fixed;
-	z-index: 1;
-}
 
-/* Flex Container*/
-#nav-bar ul {
-    list-style: none;
-	margin: 0;
-	padding: 0.75rem 0 0 0;
-    display: flex;
-    color: white;
-    justify-content: flex-end;
-    
-}
-
-/* Flex Item */
-#nav-bar li {
-    padding-right: 5rem;
-}
-
-#nav-bar a {
-    color: white;
-    text-decoration: none;
-}
-
+/* MEDIA QUERIES */
 
 @media all and (max-width: 760px) {
 	
