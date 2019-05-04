@@ -55,7 +55,7 @@ button {
     border: solid 2px #05535F;
     color: white;
     border-radius: 2rem;
-	/* cursor: pointer; */
+	cursor: pointer;
 	font-family: inherit;
 	font-size: 1em;
     /* transition-duration: 0.3s; */
@@ -109,6 +109,10 @@ button {
     border-bottom: 1px solid #05535f;
 }
 
+#projects a {
+    color: #7C7C7C;
+}
+
 #project-1img img {
     display: grid;
     grid-column: 1;
@@ -138,6 +142,37 @@ button {
     padding: 1rem 0.75rem 0.75rem 1rem;
     color: #05535F;
 }
+
+/* NAVIGATION */
+
+#header {
+	width: 100%;
+	background-color: #05535f;;
+	position: fixed;
+	z-index: 1;
+}
+
+/* Flex Container*/
+#nav-bar ul {
+    list-style: none;
+	margin: 0;
+	padding: 0.75rem 0 0 0;
+    display: flex;
+    color: white;
+    justify-content: flex-end;
+    
+}
+
+/* Flex Item */
+#nav-bar li {
+    padding-right: 5rem;
+}
+
+#nav-bar a {
+    color: white;
+    text-decoration: none;
+}
+
 
 @media all and (max-width: 760px) {
 	

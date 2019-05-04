@@ -9,6 +9,15 @@
     <title>Simon Green</title>
 </head>
 <body>
+    <header id="header">
+        <nav id="nav-bar">
+            <ul>
+                <li><a href="#about-section" class="nav-link">About</a></li>
+                <li><a href="#projects" class="nav-link">Projects</a></li>
+                <li><a href="#contact-section" class="nav-link">Contact</a></li>
+            </ul>
+        </nav>	
+    </header>
     <div id="welcome-section">
         <div>
             <h1>Simon Green</h1>
@@ -56,16 +65,14 @@
     <div id="projects">
         <div>
             <h3 class="project-title">Smart Brain</h3>
-
             <img src="images/smart-brain.jpg" alt="Smart Brain app">
         </div>
-            
             Face recognition app that detects faces shown in a photo. 
             Uses a PostgreSQL database to keep track of how many images 
             a user has submitted. The face recognition itself is taken 
             care of via an API from a company called Clarifai.
             
-        
+            <a href="https://smart-brain-sg.herokuapp.com/" target="_blank"><i class="fas fa-external-link-alt"></i></a>
     </div>
     <div id="contact-section">
         <div>
@@ -74,8 +81,8 @@
             <br>
             Whether for a potential project or just to say hi, 
             I’ll try my best to answer your email! 
-            <p>
-                <button>Say Hello</button>
+            <p> 
+                <a href = "mailto: simonisaacgreen@icloud.com"><button>Say Hello</button></a>
             </p>        
             <p>
                 <a href="https://github.com/SimonGreenUK" target="_blank"><i class="fab fa-github icon-black"></i></a>
