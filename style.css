@@ -110,7 +110,6 @@ button {
 
 #about-section {
     color: #7C7C7C;
-    border-bottom: 1px solid #05535f;  
 }
 
 .about {
@@ -133,8 +132,8 @@ button {
 }
 
 #projects-section {
+    background-color: #f7f7f7;
     color: #7C7C7C;
-    border-bottom: 1px solid #05535f;
 }
 
 #projects-section a {
