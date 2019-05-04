@@ -132,7 +132,7 @@ button {
 }
 
 #projects-section {
-    background-color: #f7f7f7;
+    background-color: #ececec;
     color: #7C7C7C;
 }
 
@@ -155,6 +155,7 @@ button {
     display: flex;
     flex-wrap: wrap;
     align-items: center;
+    background: white;
     border: solid 3px #05535f;
     border-radius: 10px;
     padding: 1.5rem;
