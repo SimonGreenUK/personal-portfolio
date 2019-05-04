@@ -1,5 +1,4 @@
 * {
-    box-sizing: inherit;
     box-sizing: border-box;
 }
 
@@ -62,11 +61,20 @@ button {
     margin: 1.5rem 0 1.5rem 0;
 }
 
+.icon {
+    padding: 1rem 0.75rem 0.75rem 1rem;
+}
+
+.icon-black {
+    padding: 1rem 0.75rem 0.75rem 1rem;
+    color: #05535F;
+}
+
 /* NAVBAR SYLING */
 
 .navbar {
     width: 100%;
-    background-color: #05535f;;
+    background-color: #05535f;
 	position: fixed;
     z-index: 1;
     display: flex;
@@ -91,7 +99,7 @@ button {
 /* SECTION STYLING */
 
 #welcome-section {
-    display: grid;
+    display: flex;
     height: 100vh;
     align-items: center;
     justify-content: center;
@@ -101,107 +109,109 @@ button {
 }
 
 #about-section {
-    display: grid;
-    grid-template-columns: 2fr 1fr;
-    grid-gap: 5rem;
-    height: 100vh;
-    padding: 0rem 10rem 0rem 10rem;
-    justify-content: center;
-    align-items: center;
     color: #7C7C7C;
-    border-bottom: 1px solid #05535f; 
+    border-bottom: 1px solid #05535f;  
 }
 
-#about {
-    display: grid;
-    grid-column: 1;
-}
-
-#projects {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    grid-gap: 5rem;
-    height: 100vh;
-    padding: 0rem 10rem 0rem 10rem;
-    justify-content: center;
+.about {
+    display: flex;
     align-items: center;
+    justify-content: center;
+    max-width: 1000px;
+    min-height: 100%;
+    margin: 0 auto;
+    padding: 4rem 6rem 2rem 6rem;
+    width: 100%;    
+}
+
+.about-text {
+    margin-right: 2rem;
+}
+
+.about img {
+    max-width: 400px;
+}
+
+#projects-section {
     color: #7C7C7C;
     border-bottom: 1px solid #05535f;
 }
 
-#projects a {
+#projects-section a {
     color: #7C7C7C;
 }
 
-#project-1img img {
-    display: grid;
-    grid-column: 1;
+.projects {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    max-width: 1000px;
+    min-height: 100%;
+    margin: 0 auto;
+    padding: 4rem 6rem 2rem 6rem;
+    width: 100%; 
 }
 
-#project-1 {
-    display: grid;
-    grid-column: 2;
+.project-card {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    border: solid 3px #05535f;
+    border-radius: 10px;
+    padding: 1.5rem;
+}
+
+.project-card-content {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.project-card-text {
+    margin-left: 2rem;
 }
 
 #contact-section {
-    display: grid;
-    height: 100vh;
-    align-items: center;
-    justify-content: center;
-    text-align: center;
-    padding: 0rem 10rem 0rem 10rem;
     color: #7C7C7C;
 }
 
-.icon {
-    padding: 1rem 0.75rem 0.75rem 1rem;
+.contact {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    max-width: 1000px;
+    min-height: 100%;
+    margin: 0 auto;
+    padding: 4rem 6rem 2rem 6rem;
+    width: 100%; 
 }
-
-.icon-black {
-    padding: 1rem 0.75rem 0.75rem 1rem;
-    color: #05535F;
-}
-
 
 
 /* MEDIA QUERIES */
 
-@media all and (max-width: 760px) {
-	
-	#about-section {
-        display: grid;
-        grid-template-columns: 1fr;
-        grid-gap: 10px;
-        height: 100vh;
-        padding: 0rem 5rem 0rem 5rem;
-        justify-content: center;
-        color: #7C7C7C;
-        border-bottom: 1px solid #05535f; 
+@media all and (max-width: 960px) {
+    
+    .about {
+        flex-wrap: wrap;
+        padding: 4rem 2rem 2rem 2rem;
     }
 
-    #about-section img {
-        max-width: 50%;
+     .about-text {
+        margin-right: 0;
     }
 
-    #projects {
-        display: grid;
-        grid-template-columns: 1fr;
-        grid-gap: 10px;
-        height: 100vh;
-        padding: 0rem 5rem 0rem 5rem;
-        justify-content: center;
-        color: #7C7C7C;
-        border-bottom: 1px solid #05535f;
+    .projects {
+        padding: 4rem 2rem 2rem 2rem;
     }
 
-    #contact-section {
-        display: grid;
-        height: 100vh;
-        align-items: center;
-        justify-content: center;
-        text-align: center;
-        padding: 0rem 5rem 0rem 5rem;
-        color: #7C7C7C;
+    .project-card-content {
+        flex-wrap: wrap;
+    }
+
+    .project-card-text {
+        margin-top: 2rem;
+        margin-left: 0;
     }
 }
 
