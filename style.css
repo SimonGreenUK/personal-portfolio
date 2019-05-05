@@ -61,14 +61,9 @@ button {
     margin: 1.5rem 0 1.5rem 0;
 }
 
-.icon {
-    padding: 1rem 0.75rem 0.75rem 1rem;
-}
 
-.icon-black {
-    padding: 1rem 0.75rem 0.75rem 1rem;
-    color: #05535F;
-}
+
+
 
 /* NAVBAR SYLING */
 
@@ -106,6 +101,10 @@ button {
     text-align: center;
     background-color: #05535f;
     color: white;
+}
+
+.welcome-section-content .icon {
+    padding: 1rem 0.75rem 0.75rem 1rem;
 }
 
 #about-section {
@@ -175,6 +174,10 @@ button {
     margin-left: 2rem;
 }
 
+.project-card-text .icon {
+    padding-right: 0.75rem;
+}
+
 #contact-section {
     color: #7C7C7C;
 }
@@ -189,6 +192,11 @@ button {
     margin: 0 auto;
     padding: 4rem 6rem 2rem 6rem;
     width: 100%; 
+}
+
+.icon-black {
+    padding: 1rem 0.75rem 0.75rem 1rem;
+    color: #05535F;
 }
 
 
