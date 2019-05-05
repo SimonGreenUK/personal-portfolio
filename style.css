@@ -123,6 +123,11 @@ button {
     width: 100%;    
 }
 
+.about-content {
+    display: flex;
+    align-items: flex-start;
+}
+
 .about-text {
     margin-right: 2rem;
 }
@@ -163,7 +168,6 @@ button {
 
 .project-card-content {
     display: flex;
-    align-items: center;
     justify-content: center;
 }
 
@@ -190,11 +194,14 @@ button {
 
 /* MEDIA QUERIES */
 
-@media all and (max-width: 960px) {
+@media all and (max-width: 860px) {
     
     .about {
-        flex-wrap: wrap;
         padding: 4rem 2rem 2rem 2rem;
+    }
+
+    .about-content {
+        flex-wrap: wrap;
     }
 
      .about-text {
