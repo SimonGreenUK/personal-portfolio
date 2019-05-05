@@ -91,14 +91,40 @@ button {
     margin-right: 30px;
 }
 
-.mobile-menu {
-    display: none;
-}
-
 .mobile-menu-toggle {
     display: none;
     color: white;
 }
+
+.mobile-menu {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    position: fixed;
+    top: 55px;
+    background: #0c8396;
+    overflow: hidden;
+    height: 0;
+    -webkit-transition: height .3s ease-out;
+    transition: height .3s ease-out;
+    text-align: left;
+}
+
+.mobile-menu-visible {
+    height: 160px;
+}
+
+.mobile-menu-link {
+    padding: 12px 30px;
+    font-size: 0.75rem;
+    cursor: pointer;
+    -webkit-transition: color .5s;
+    transition: color .5s;
+    text-transform: uppercase;
+}
+
+
+
 
 /* SECTION STYLING */
 
