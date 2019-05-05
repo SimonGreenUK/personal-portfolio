@@ -91,6 +91,15 @@ button {
     margin-right: 30px;
 }
 
+.mobile-menu {
+    display: none;
+}
+
+.mobile-menu-toggle {
+    display: none;
+    color: white;
+}
+
 /* SECTION STYLING */
 
 #welcome-section {
@@ -203,6 +212,15 @@ button {
 /* MEDIA QUERIES */
 
 @media all and (max-width: 860px) {
+
+    /* MOBILE  */
+    .desktop-menu {
+        display: none;
+    }
+
+    .mobile-menu-toggle {
+        display: block;
+    }
     
     .about {
         padding: 4rem 2rem 2rem 2rem;
