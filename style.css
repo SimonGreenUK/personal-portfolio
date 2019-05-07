@@ -24,14 +24,13 @@ hr {
     width: 48%;
 }
 
-a {
+/* a {
     color: white;
-    text-decoration: none;
-}
+} */
 
-a:hover {
-    color: #7C7C7C;
-}
+/* a:hover {
+    color: #ababab;
+} */
 
 img {
     width: 100%;
@@ -61,6 +60,20 @@ button {
     margin: 1.5rem 0 1.5rem 0;
 }
 
+button:hover {
+    background-color: #0c8396;
+    border: solid 2px #0c8396;
+    color: white;
+    border-radius: 2rem;
+	cursor: pointer;
+	font-family: inherit;
+	font-size: 1em;
+	width: 8rem;
+    height: 3rem;
+    margin: 1.5rem 0 1.5rem 0;
+    transition: color 0.1s;
+}
+
 
 
 
@@ -69,6 +82,7 @@ button {
 
 .navbar {
     width: 100%;
+    color: white;
     background-color: #05535f;
 	position: fixed;
     z-index: 1;
@@ -84,11 +98,25 @@ button {
 }
 
 .nav-title {
+    color: white;
+    text-decoration: none;
+    transition: color .1s;
     margin-left: 30px;
 }
 
+.nav-title:hover {
+    color: #ababab;
+}
+
 .nav-item {
+    color: white;
+    text-decoration: none;
+    transition: color .1s;
     margin-right: 30px;
+}
+
+.nav-item:hover {
+    color: #ababab;
 }
 
 .mobile-menu-toggle {
@@ -115,15 +143,18 @@ button {
 }
 
 .mobile-menu-link {
+    color: white;
+    text-decoration: none;
     padding: 12px 30px;
     font-size: 0.75rem;
     cursor: pointer;
-    -webkit-transition: color .5s;
-    transition: color .5s;
+    transition: color .1s;
     text-transform: uppercase;
 }
 
-
+.mobile-menu-link:hover {
+    color: #ababab;
+}
 
 
 /* SECTION STYLING */
@@ -136,6 +167,15 @@ button {
     text-align: center;
     background-color: #05535f;
     color: white;
+}
+
+.welcome-section-content-icons a {
+    color: white;
+    transition: color .1s;
+}
+
+.welcome-section-content-icons a:hover {
+    color: #ababab;
 }
 
 .welcome-section-content .icon {
@@ -175,9 +215,9 @@ button {
     color: #7C7C7C;
 }
 
-#projects-section a {
+/* #projects-section a {
     color: #7C7C7C;
-}
+} */
 
 .projects {
     display: flex;
@@ -205,12 +245,22 @@ button {
     justify-content: center;
 }
 
+.project-card-content a {
+    color: #7C7C7C;
+    transition: color 0.1s;
+}
+
+.project-card-content a:hover {
+    color: #05535f;
+}
+
 .project-card-text {
     margin-left: 2rem;
 }
 
 .project-card-text .icon {
     padding-right: 0.75rem;
+    padding: 0.75 0.75rem 0.75rem 0rem;
 }
 
 #contact-section {
@@ -232,6 +282,10 @@ button {
 .icon-black {
     padding: 1rem 0.75rem 0.75rem 1rem;
     color: #05535F;
+}
+
+.icon-black:hover {
+    color: #0c8396;
 }
 
 
