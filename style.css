@@ -55,6 +55,10 @@ button {
 	width: 8rem;
     height: 3rem;
     margin: 1.5rem 0 1.5rem 0;
+    -webkit-transition: background-color 0.2s;
+    -moz-transition: background-color 0.2s;
+    -o-transition: background-color 0.2s;
+    transition: background-color 0.2s;
 }
 
 button:hover {
@@ -65,11 +69,10 @@ button:hover {
 	cursor: pointer;
 	font-family: inherit;
     font-size: 1em;
-    font-weight: normal;
+    font-weight: 100;
 	width: 8rem;
     height: 3rem;
     margin: 1.5rem 0 1.5rem 0;
-    transition: color 0.1s;
 }
 
 
@@ -98,7 +101,10 @@ button:hover {
 .nav-title {
     color: white;
     text-decoration: none;
-    transition: color .1s;
+    -webkit-transition: color 0.2s;
+    -moz-transition: color 0.2s;
+    -o-transition: color 0.2s;
+    transition: color 0.2s;
     margin-left: 30px;
 }
 
@@ -109,7 +115,10 @@ button:hover {
 .nav-item {
     color: white;
     text-decoration: none;
-    transition: color .1s;
+    -webkit-transition: color 0.2s;
+    -moz-transition: color 0.2s;
+    -o-transition: color 0.2s;
+    transition: color 0.2s;
     margin-right: 30px;
 }
 
@@ -132,6 +141,8 @@ button:hover {
     overflow: hidden;
     height: 0;
     -webkit-transition: height .3s ease-out;
+    -moz-transition: height .3s ease-out;
+    -o-transition: height .3s ease-out;
     transition: height .3s ease-out;
     text-align: left;
 }
@@ -146,7 +157,10 @@ button:hover {
     padding: 12px 30px;
     font-size: 0.75rem;
     cursor: pointer;
-    transition: color .1s;
+    -webkit-transition: color 0.2s;
+    -moz-transition: color 0.2s;
+    -o-transition: color 0.2s;
+    transition: color 0.2s;
     text-transform: uppercase;
 }
 
@@ -169,7 +183,10 @@ button:hover {
 
 .welcome-section-content-icons a {
     color: white;
-    transition: color .1s;
+    -webkit-transition: color 0.2s;
+    -moz-transition: color 0.2s;
+    -o-transition: color 0.2s;
+    transition: color 0.2s;
 }
 
 .welcome-section-content-icons a:hover {
@@ -249,7 +266,10 @@ button:hover {
 
 .project-card-content a {
     color: #7C7C7C;
-    transition: color 0.1s;
+    -webkit-transition: color 0.2s;
+    -moz-transition: color 0.2s;
+    -o-transition: color 0.2s;
+    transition: color 0.2s;
 }
 
 .project-card-content a:hover {
@@ -290,6 +310,10 @@ button:hover {
 .icon-black {
     padding: 1rem 0.75rem 0.75rem 1rem;
     color: #05535F;
+    -webkit-transition: color 0.2s;
+    -moz-transition: color 0.2s;
+    -o-transition: color 0.2s;
+    transition: color 0.2s;
 }
 
 .icon-black:hover {
@@ -299,7 +323,7 @@ button:hover {
 
 /* MEDIA QUERIES */
 
-@media all and (max-width: 860px) {
+@media all and (max-width: 750px) {
 
     /* MOBILE  */
     .desktop-menu {
