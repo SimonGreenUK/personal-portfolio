@@ -7,35 +7,31 @@
 body {
     margin: 0;
     font-family: 'Roboto', sans-serif;
+    font-weight: 100;
 }
+
+html{scroll-behavior:smooth}
 
 h1 {
     font-size: 5rem;
     margin: 0 0 1rem 0;
     padding: 0;
+    font-weight: 100;
 }
 
 h2 {
     font-size: 2rem;
     margin: 1.5rem 0 1.5rem 0;
+    font-weight: 100;
+}
+
+h3 {
+    font-weight: 100;
 }
 
 hr {
     width: 48%;
-}
-
-/* a {
     color: white;
-} */
-
-/* a:hover {
-    color: #ababab;
-} */
-
-img {
-    width: 100%;
-    height: auto;
-    border-radius: 10px;
 }
 
 ul {
@@ -54,7 +50,8 @@ button {
     border-radius: 2rem;
 	cursor: pointer;
 	font-family: inherit;
-	font-size: 1em;
+    font-size: 1em;
+    font-weight: 100;
 	width: 8rem;
     height: 3rem;
     margin: 1.5rem 0 1.5rem 0;
@@ -67,7 +64,8 @@ button:hover {
     border-radius: 2rem;
 	cursor: pointer;
 	font-family: inherit;
-	font-size: 1em;
+    font-size: 1em;
+    font-weight: normal;
 	width: 8rem;
     height: 3rem;
     margin: 1.5rem 0 1.5rem 0;
@@ -191,6 +189,7 @@ button:hover {
     align-items: center;
     justify-content: center;
     max-width: 1000px;
+    height: 100%;
     min-height: 100%;
     margin: 0 auto;
     padding: 4rem 6rem 2rem 6rem;
@@ -202,12 +201,19 @@ button:hover {
     align-items: flex-start;
 }
 
-.about-text {
+.about-content-text {
     margin-right: 2rem;
 }
 
-.about img {
-    max-width: 400px;
+.about-content-image {
+   
+}
+
+.about-image {
+    min-width: 300px;
+    max-width: 100%;
+    height: auto;
+    border-radius: 10px;
 }
 
 #projects-section {
@@ -215,15 +221,12 @@ button:hover {
     color: #7C7C7C;
 }
 
-/* #projects-section a {
-    color: #7C7C7C;
-} */
-
 .projects {
     display: flex;
     align-items: center;
     justify-content: center;
     max-width: 1000px;
+    height: 100%;
     min-height: 100%;
     margin: 0 auto;
     padding: 4rem 6rem 2rem 6rem;
@@ -263,6 +266,12 @@ button:hover {
     padding: 0.75 0.75rem 0.75rem 0rem;
 }
 
+.project-image {
+    max-width: 100%;
+    height: auto;
+    border-radius: 10px;
+}
+
 #contact-section {
     color: #7C7C7C;
 }
@@ -273,6 +282,7 @@ button:hover {
     justify-content: center;
     text-align: center;
     max-width: 1000px;
+    height: 100%;
     min-height: 100%;
     margin: 0 auto;
     padding: 4rem 6rem 2rem 6rem;
