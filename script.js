@@ -8,9 +8,6 @@ function animateHamburger(click) {
     mobile_menu_icon.classList.toggle('change');
 }
 
-mobile_menu_icon.addEventListener('click', animateHamburger);
-
-
 // SHOW MOBILE MENU ON HAMBURGER OR MOBILE MENU LINK CLICK
 function toggleOpenMobileMenu(click) {
     mobile_menu.classList.toggle('mobile-menu-visible');
@@ -18,4 +15,8 @@ function toggleOpenMobileMenu(click) {
 
 mobile_menu_icon.addEventListener('click', toggleOpenMobileMenu);
 
+mobile_menu_icon.addEventListener('click', animateHamburger);
+
 mobile_menu_links.forEach(link => link.addEventListener('click', toggleOpenMobileMenu));
+
+mobile_menu_links.forEach(link => link.addEventListener('click', animateHamburger));
