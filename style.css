@@ -53,17 +53,17 @@ html {
 }
 
 /* MOBILE MENU STYLING */
-.mobile-menu-toggle {
+.mobile-menu-icon {
     color: white;
     display: none;
     cursor: pointer;
 }
 
-.mobile-menu-toggle-bars {
+.mobile-menu-icon-bars {
     width: 35px;
-    height: 5px;
+    height: 3px;
     background-color: white;
-    margin: 6px 0;
+    margin: 8px 0;
     transition: 0.3s;
 }
 
@@ -358,7 +358,7 @@ html {
         display: none;
     }
 
-    .mobile-menu-toggle {
+    .mobile-menu-icon {
         display: block;
     }
     
