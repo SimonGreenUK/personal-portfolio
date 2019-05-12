@@ -133,7 +133,7 @@ html {
     font-weight: 100;
 }
 
-#welcome-section {
+.welcome-section {
     display: flex;
     height: 100vh;
     align-items: center;
@@ -177,7 +177,7 @@ html {
     padding: 1rem 0.75rem 0.75rem 1rem;
 }
 
-#about-section {
+.about-section {
     color: #7C7C7C;
 }
 
@@ -218,7 +218,7 @@ html {
     border-radius: 10px;
 }
 
-#projects-section {
+.projects-section {
     background-color: #ececec;
     color: #7C7C7C;
 }
@@ -286,7 +286,7 @@ html {
     padding: 0.75 0.75rem 0.75rem 0rem;
 }
 
-#contact-section {
+.contact-section {
     color: #7C7C7C;
 }
 
