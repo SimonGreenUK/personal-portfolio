@@ -34,9 +34,17 @@ html {
     margin-left: 30px;
 }
 
-.nav-title:hover {
-    color: #ababab;
+.nav-title--visible {
+    color: white;
 }
+
+.nav-title--hidden {
+    color: #05535f;
+}
+
+/* .nav-title:hover {
+    color: #ababab;
+} */
 
 .nav-item {
     color: white;
