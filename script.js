@@ -22,21 +22,15 @@ mobile_menu_links.forEach(link => link.addEventListener('click', toggleOpenMobil
 
 mobile_menu_links.forEach(link => link.addEventListener('click', animateHamburger));
 
-// SHOW MENU TITLE WHEN NOT ON WELCOME SECTION
-let scrollPos = 0;
-
+// SHOW NAV TITLE WHEN NOT ON WELCOME SECTION
 function checkPosition() {
-    
-  let windowY = window.scrollY;
-  console.log(windowY);
-  if (windowY > 505) {
+  if (window.scrollY > 505) {
     nav_title.classList.remove('nav-title--hidden');
     nav_title.classList.add('nav-title--visible');
   } else {
     nav_title.classList.add('nav-title--hidden');
     nav_title.classList.remove('nav-title--visible');
   }
-  scrollPos = windowY;
 }
 
 window.addEventListener('scroll', checkPosition);
