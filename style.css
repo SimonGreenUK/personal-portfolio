@@ -32,20 +32,20 @@ html {
     -o-transition: color 0.2s;
     transition: color 0.2s;
     margin-left: 30px;
+    
 }
 
 .nav-title--visible {
-    color: white;
+    visibility: visible;
 }
 
 .nav-title--hidden {
-    color: #05535f;
-    cursor: default;
+    visibility: hidden;
 }
 
-/* .nav-title:hover {
+.nav-title:hover {
     color: #ababab;
-} */
+}
 
 .nav-item {
     color: white;

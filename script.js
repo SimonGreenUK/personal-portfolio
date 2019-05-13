@@ -24,7 +24,7 @@ mobile_menu_links.forEach(link => link.addEventListener('click', animateHamburge
 
 // SHOW NAV TITLE WHEN NOT ON WELCOME SECTION
 function checkPosition() {
-  if (window.scrollY > 505) {
+  if (window.scrollY > 525) {
     nav_title.classList.remove('nav-title--hidden');
     nav_title.classList.add('nav-title--visible');
   } else {
