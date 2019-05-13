@@ -40,6 +40,7 @@ html {
 
 .nav-title--hidden {
     color: #05535f;
+    cursor: default;
 }
 
 /* .nav-title:hover {
