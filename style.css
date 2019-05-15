@@ -248,19 +248,21 @@ html {
     flex-wrap: wrap;
     align-items: center;
     background: white;
-    border: solid 3px #05535f;
     border-radius: 10px;
-    padding: 2rem;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    padding: 20px 20px 35px 20px;
+    margin-bottom: 22px;
 }
 
 .project-card-title {
-    margin-bottom: 1rem;
+    font-size: 1.25rem;
+    margin-bottom: 22px;
 }
 
 .project-card-title-text {
     text-decoration: none;
     font-weight: 300;
-    color: #7C7C7C;
+    color: #0c8396;
 }
 
 .project-card-content {
