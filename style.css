@@ -234,6 +234,7 @@ html {
 
 .projects {
     display: flex;
+    flex-wrap: wrap;
     align-items: center;
     justify-content: center;
     max-width: 1000px;
@@ -256,7 +257,7 @@ html {
 
 .project-card-title {
     font-size: 1.25rem;
-    margin-bottom: 22px;
+    margin-bottom: 25px;
 }
 
 .project-card-title-text {
@@ -283,6 +284,7 @@ html {
 }
 
 .project-card-text {
+    flex: 0 1 150%;
     margin-left: 2rem;
 }
 
