@@ -2,7 +2,7 @@
 
 :root {
     --gray-body-text: #656565;
-    --gray-link-text: #ababab;
+    --gray-link-text: rgba(255, 255, 255, 0.7);
     --gray-projects-bg-color: #ececec;
     --blue-main: #05535f;
     --blue-light: #0c8396;
