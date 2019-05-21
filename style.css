@@ -1,3 +1,13 @@
+/* COLOR VARIABLES */
+
+:root {
+    --gray-body-text: #7C7C7C;
+    --gray-link-text: #ababab;
+    --gray-projects-bg-color: #ececec;
+    --blue-main: #05535f;
+    --blue-light: #0c8396;
+  }
+
 * {
     box-sizing: border-box;
 }
@@ -6,11 +16,11 @@ html {
     scroll-behavior: smooth;
 }
 
-/* NAVBAR SYLING */
+/* NAVBAR STYLING */
 .navbar {
     width: 100%;
     color: white;
-    background-color: #05535f;
+    background-color: var(--blue-main);
 	position: fixed;
     z-index: 1;
     display: flex;
@@ -44,7 +54,7 @@ html {
 }
 
 .nav-title:hover {
-    color: #ababab;
+    color: var(--gray-link-text);
 }
 
 .nav-item {
@@ -58,7 +68,7 @@ html {
 }
 
 .nav-item:hover {
-    color: #ababab;
+    color: var(--gray-link-text);
 }
 
 /* MOBILE MENU STYLING */
@@ -103,7 +113,7 @@ html {
     width: 100%;
     position: fixed;
     top: 55px;
-    background: #0c8396;
+    background: var(--blue-light);
     overflow: hidden;
     height: 0;
     -webkit-transition: height .3s ease-out;
@@ -131,7 +141,7 @@ html {
 }
 
 .mobile-menu-link:hover {
-    color: #ababab;
+    color: var(--gray-link-text);
 }
 
 
@@ -148,7 +158,7 @@ html {
     align-items: center;
     justify-content: center;
     text-align: center;
-    background-color: #05535f;
+    background-color: var(--blue-main);
     color: white;
 }
 
@@ -179,7 +189,7 @@ html {
 }
 
 .welcome-section-content-icons a:hover {
-    color: #ababab;
+    color: var(--gray-link-text);
 }
 
 .welcome-section-content .icon {
@@ -187,7 +197,7 @@ html {
 }
 
 .about-section {
-    color: #7C7C7C;
+    color: var(--gray-body-text);   
 }
 
 .about {
@@ -228,8 +238,8 @@ html {
 }
 
 .projects-section {
-    background-color: #ececec;
-    color: #7C7C7C;
+    background-color: var(--gray-projects-bg-color);
+    color: var(--gray-body-text);
 }
 
 .projects {
@@ -263,7 +273,7 @@ html {
 .project-tile-title-text {
     text-decoration: none;
     font-weight: 300;
-    color: #0c8396;
+    color: var(--blue-light);
 }
 
 .project-tile-content {
@@ -272,7 +282,7 @@ html {
 }
 
 .project-tile-content-link {
-    color: #7C7C7C;
+    color: var(--gray-body-text);
     -webkit-transition: color 0.2s;
     -moz-transition: color 0.2s;
     -o-transition: color 0.2s;
@@ -280,7 +290,7 @@ html {
 }
 
 .project-tile-content-link:hover {
-    color: #05535f;
+    color: var(--blue-main);
 }
 
 .project-tile-text {
@@ -300,7 +310,7 @@ html {
 }
 
 .contact-section {
-    color: #7C7C7C;
+    color: var(--gray-body-text);
 }
 
 .contact {
@@ -316,8 +326,8 @@ html {
 }
 
 .contact-button {
-    background-color: #05535F;
-    border: solid 2px #05535F;
+    background-color: var(--blue-main);
+    border: solid 2px var(--blue-main);
     color: white;
     border-radius: 2rem;
 	cursor: pointer;
@@ -334,8 +344,8 @@ html {
 }
 
 .contact-button:hover {
-    background-color: #0c8396;
-    border: solid 2px #0c8396;
+    background-color: var(--blue-light);
+    border: solid 2px var(--blue-light);
     color: white;
     border-radius: 2rem;
 	cursor: pointer;
@@ -350,7 +360,7 @@ html {
 
 .contact-icon {
     padding: 1rem 0.75rem 0.75rem 1rem;
-    color: #05535F;
+    color: var(--blue-main);
     -webkit-transition: color 0.2s;
     -moz-transition: color 0.2s;
     -o-transition: color 0.2s;
@@ -358,7 +368,7 @@ html {
 }
 
 .contact-icon:hover {
-    color: #0c8396;
+    color: var(--blue-light);
 }
 
 
