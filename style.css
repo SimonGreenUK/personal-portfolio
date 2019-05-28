@@ -219,6 +219,7 @@ html {
 
 .about-content-text {
     margin-right: 2rem;
+    line-height: 1.4em;
 }
 
 .about-content-text-ul {
@@ -296,6 +297,7 @@ html {
 .project-tile-text {
     flex: 0 1 150%;
     margin-left: 2rem;
+    line-height: 1.4em;
 }
 
 .project-image {
@@ -323,6 +325,7 @@ html {
     margin: 0 auto;
     padding: 4rem 6rem 2rem 6rem;
     width: 100%; 
+    line-height: 1.4em;
 }
 
 .contact-button {
