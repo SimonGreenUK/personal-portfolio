@@ -14,6 +14,7 @@
 
 html {
     scroll-behavior: smooth;
+    font-size: calc(0.70em + (1.90 - 0.70) * (100vw - 450px) / (700 - 450));
 }
 
 /* NAVBAR STYLING */
@@ -332,7 +333,7 @@ html {
     background-color: var(--blue-main);
     border: solid 2px var(--blue-main);
     color: white;
-    border-radius: 2rem;
+    border-radius: 500px;
 	cursor: pointer;
 	font-family: inherit;
     font-size: 1em;
