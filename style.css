@@ -331,7 +331,7 @@ html {
 
 .contact-button {
     background-color: var(--blue-main);
-    border: solid 2px var(--blue-main);
+    border: solid 0px var(--blue-main);
     color: white;
     border-radius: 500px;
 	cursor: pointer;
@@ -349,7 +349,7 @@ html {
 
 .contact-button:hover {
     background-color: var(--blue-light);
-    border: solid 2px var(--blue-light);
+    border: solid 0px var(--blue-light);
     color: white;
     border-radius: 2rem;
 	cursor: pointer;
