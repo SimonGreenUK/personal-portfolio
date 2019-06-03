@@ -72,6 +72,16 @@ html {
     color: var(--gray-link-text);
 }
 
+.desktop-menu-items {
+    display: flex;
+    list-style-type: none;
+}
+
+.desktop-menu li.active a {
+    padding-bottom: 2px;
+    border-bottom: 1px solid currentColor;
+}
+
 /* MOBILE MENU STYLING */
 .mobile-menu-icon {
     color: white;

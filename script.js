@@ -1,3 +1,4 @@
+const header = document.querySelector('#navbar');
 const mobile_menu_icon = document.getElementsByClassName('mobile-menu-icon')[0];
 const mobile_menu_icon_bars = document.querySelectorAll('.mobile-menu-icon-bars');
 const mobile_menu_links = document.querySelectorAll('.mobile-menu-link');
@@ -24,7 +25,7 @@ mobile_menu_links.forEach(link => link.addEventListener('click', toggleOpenMobil
 mobile_menu_links.forEach(link => link.addEventListener('click', animateHamburger));
 
 // HELPER FUNCTION - CHECKS IF PASSED IN ELEMENT IS IN VIEWPORT & RETURNS BOOLEAN
-let isInViewport = function (elem) {
+let isInViewport = function(elem) {
   let bounding = elem.getBoundingClientRect();
   return (
       bounding.top >= 0 &&
@@ -44,3 +45,11 @@ window.addEventListener('scroll', function (event) {
       nav_title.classList.add('nav-title--visible');  
     }
 });
+
+// UNDERLINE SECTION NAME IN NAV WHEN SECTION IN VIEWPORT
+let spy = new Gumshoe('.desktop-menu-items a', {
+	offset: function () {
+		return header.getBoundingClientRect().height;
+	}
+});
+
